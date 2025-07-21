@@ -7,7 +7,7 @@ import ShoppingCart from "./components/ShoppingCart";
 
 const App = () => {
   return (
-    <Router>
+    <Router basename="/paradise-nursery-shopping-app">
       <Header />
       <Routes>
         <Route path="/" element={<LandingPage />} />
