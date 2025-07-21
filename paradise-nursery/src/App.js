@@ -8,7 +8,7 @@ import Header from "./components/Header";
 
 function App() {
   return (
-    <Router>
+    <Router basename="/paradise-nursery-shopping-app">
       <Header />
       <Routes>
         <Route path="/" element={<LandingPage />} />
